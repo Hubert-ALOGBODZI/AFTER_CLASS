@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 650px;
+    border: 2px solid rgb(104, 82, 82);
+    border-radius: .3em;
+    display: flex;
+    height: 365px;
+    background-color: rgb(243, 231, 231);
+}
+.container .form_left{
+    width: 50%;
+    float: left;
+    margin-left: 2%;
+}
+.container .form_left form{
+    width: 50%;
+    float: left;
+    margin-top: 10%;
+}
+.container .form_left form .mail{
+    margin-top: 10%;
+}
+
+.container .form_left form .identiter{
+    display: flex;
+    gap: 10%;
+}
+.container .form_left form .mail:nth-child(2){
+    width: 100%;
+}
+.container .form_left button{
+    transform: translateY(90px);
+    margin-left: 68%;
+}
+
+.container .right{
+    width: 50%;
+    float: right;
+    line-height: 28px;
+    margin-right: 1%;
+    padding-left: 8%;
+    margin-top: 1%;
+}
+.container .right .image{
+    height: 260px;
+    width: 260px;
+    border:1px solid rgb(90, 85, 85);
+    overflow: hidden;
+}
+.container .right .image img{
+    width:310px;
+    height: 390px;
+    transform: translateX(-26px);
+}
+.container .right .information img{
+    width:25px;
+    height:25px;
+    margin-top: 1%;
+}
+.container .right .information .form_result .check_controle{
+    display: flex;
+    gap: 2%;
+}
+
